@@ -9,13 +9,13 @@ Let's say you have to repair your tv, so you need to go to tv repair shop which 
 
 ### Service Provider:
 
-* Register & Login
+* Register & Login (Remember me & Forgot Password)
 * Add services what he wants to provide
 * See all reviews about him
 
 ### Customer:
 
-* Register & Login
+* Register & Login (Remember me & Forgot Password)
 * Search service providers arround him
 * Can see other customers reviews about a service provider 
 * Make request to a service provider 
@@ -28,7 +28,6 @@ Let's say you have to repair your tv, so you need to go to tv repair shop which 
 * Service Providers
 * Available Service Providers
 * Reviews
-#### Firebase Storage:
 * Profile Pics
 
 ### App Flow Chart
