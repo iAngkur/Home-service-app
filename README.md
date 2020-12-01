@@ -31,6 +31,9 @@ Let's say you have to repair your tv, so you need to go to tv repair shop which 
 #### Firebase Storage:
 * Profile Pics
 
+### App Flow Chart
+![homeserviceapp_flowchar](https://user-images.githubusercontent.com/26554853/100739838-ee25d300-3401-11eb-80b5-6bf783a2e321.png)
+
 ### Tools & Technologies:
 
 - __Language:__ Java
