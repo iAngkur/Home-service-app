@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Home Service App</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string-array name="services">
+
+        <item>TV Service</item>
+        <item>Car Wash</item>
+        <item>AC Service</item>
+        <item>House Cleaning</item>
+        <item>Fridge Service</item>
+        <item>Electric Service</item>
+
+    </string-array>
+</resources>

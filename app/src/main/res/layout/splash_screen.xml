@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".SplashScreen">
+
+
+    <TextView
+        android:id="@+id/title_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Help Me"
+        android:textSize="45sp"
+        android:fontFamily="@font/baloo"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:id="@+id/title_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A Home Service App"
+        android:layout_marginTop="-20dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/baloo"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_below="@id/title_logo"/>
+
+   <RelativeLayout
+       android:id="@+id/image_logo"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+       android:elevation="25dp">
+
+       <ImageView
+           android:layout_width="150dp"
+           android:layout_height="150dp"
+           android:adjustViewBounds="true"
+           android:scaleType="fitCenter"
+           android:src="@drawable/home_service_logo" />
+
+   </RelativeLayout>
+
+
+
+</RelativeLayout>

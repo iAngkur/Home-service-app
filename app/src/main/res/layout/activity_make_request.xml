@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Customer.MakeRequestActivity">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_sp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/name_icon"/>
+
+            <TextView
+                android:id="@+id/name_sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service Provider Name"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:fontFamily="@font/baloo"
+                android:layout_marginTop="5dp"/>
+
+            <RatingBar
+                android:id="@+id/rating_sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="5"
+                android:progressTint="#673AB7"
+                android:rating="4"
+                android:clickable="false"
+                android:isIndicator="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linearLayout">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/all_reviews_clicked_sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/write_review_btn_sp"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:padding="5dp"
+        android:textSize="12sp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Write Review"/>
+
+    <ImageButton
+        android:id="@+id/back_sp"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="20dp"
+        android:elevation="8dp"
+        android:background="@drawable/button_background"
+        android:src="@drawable/arrow_back_icon"
+        android:onClick="BackTo"/>
+
+    <ImageButton
+        android:id="@+id/make_call_sp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:elevation="8dp"
+        android:background="@drawable/logout_button_background"
+        android:src="@drawable/make_call_icon" />
+
+</RelativeLayout>

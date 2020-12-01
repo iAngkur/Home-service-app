@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="256dp"
+    android:height="512dp"
+    android:viewportWidth="256"
+    android:viewportHeight="512">
+    <path
+        android:fillColor="#000"
+        android:name="Forma 1"
+        android:pathData="m40 40c-4.42 0 -8 3.58 -8 8v64c0 4.42 3.58 8 8 8c4.42 0 8 -3.58 8 -8v-64c0 -4.42 -3.58 -8 -8 -8zm200 -24v128h-224v-128zm-200 240c-4.42 0 -8 3.58 -8 8v64c0 4.42 3.58 8 8 8c4.42 0 8 -3.58 8 -8v-64c0 -4.42 -3.58 -8 -8 -8zm200 -96v320h-224v-320zm-232 -160c-4.42 0 -8 3.58 -8 8v496c0 4.42 3.58 8 8 8h56c4.42 0 8 -3.58 8 -8v-8h112v8c0 4.42 3.58 8 8 8h56c4.42 0 8 -3.58 8 -8v-496c0 -4.42 -3.58 -8 -8 -8z" />
+</vector>
